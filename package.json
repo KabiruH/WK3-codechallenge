@@ -1,0 +1,24 @@
+{
+  "name": "code-challenge3",
+  "version": "1.0.0",
+  "description": "Movie viewing",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KabiruH/WK3-codechallenge.git"
+  },
+  "keywords": [
+    "movies",
+    "list",
+    "code"
+  ],
+  "author": "Kabiru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KabiruH/WK3-codechallenge/issues"
+  },
+  "homepage": "https://github.com/KabiruH/WK3-codechallenge#readme"
+}

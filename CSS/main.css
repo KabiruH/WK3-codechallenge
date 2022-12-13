@@ -15,7 +15,7 @@ h1 {
 }
 .page {
     background-color: black;
-
+    border-image: auto;
 }
 .list {
     display: flex;
@@ -31,6 +31,7 @@ h1 {
     padding-left: 1cm;
     padding-right: 1cm;
     padding-top: 1cm;   
+    
 
     
 }
@@ -45,4 +46,22 @@ h1 {
     padding: 3cm;
     padding-top: 1cm;
     margin-left: 2cm;
+}
+#buy {
+    color: blue;
+    background-color: white;
+    text-align: center;
+    text-decoration: underline;
+    text-size-adjust: auto;
+    padding-block: 5px;
+
+}
+#delete {
+        color: blue;
+        background-color: white;
+        text-align: center;
+        text-decoration: underline;
+        text-size-adjust: auto;
+        padding-block: 5px;
+        
 }
