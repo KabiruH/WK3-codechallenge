@@ -4,9 +4,13 @@ FlatDango Movie Theatre
 ## Description
 This is a mini web application that can purchase movie tickets
 
+The webpage to access the miniweb application is:
+        (https://kabiruh.github.io/WK3-codechallenge/)
+
+
 ### Prerequisites
-git clone into your local repository with the SSH
-        git@github.com:KabiruH/WK3-codechallenge.git
+To access this site, you must first open the local server 
+        http://localhost:3000/films
 
 To run this code, you need to install 
  - VS Code or other code editor
@@ -15,7 +19,7 @@ To run this code, you need to install
 
 Also, you need to install the json server
  - to run the code 
-            npm install -g json-server
+npm install -g json-server
     
 
 ### Running the tests
