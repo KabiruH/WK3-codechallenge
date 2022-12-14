@@ -18,7 +18,8 @@ To run this code, you need to install
  - Command line Interface such as cmd or terminal
 
 Also, you need to install the json server
- - to run the code 
+ - run the code 
+
 npm install -g json-server
     
 
