@@ -9,25 +9,24 @@ loadMovies ()
   
 //Show poster of the first movie and its details
 function appendFirstFilm(data) {
-  let first = data[0];
-  let details = document.getElementById("button");
-  details.innerHTML = "";
-  let image = document.getElementById("pic");
-  let title = document.getElementById("title");
-  let runtime = document.getElementById("runtime");
-  let showtime = document.getElementById("showtime");
-  let tickets = document.getElementById("tickets");
-  let description = document.getElementById("description");
+  let first = data[0]
+  let details = document.getElementById("button")
+  let image = document.getElementById("pic")
+  let title = document.getElementById("title")
+  let runtime = document.getElementById("runtime")
+  let showtime = document.getElementById("showtime")
+  let tickets = document.getElementById("tickets")
+  let description = document.getElementById("description")
 
-  let button = document.createElement("button");
-  button.id = "btn";
-  button.innerText = "Buy Ticket";
-  let total = first.capacity - first.tickets_sold;
+  let button = document.createElement("button")
+  button.id = "btn"
+  button.innerText = "Buy Ticket"
+  let ticketsAvailable = first.capacity - first.tickets_sold
   button.addEventListener("click", () => {
-    if (total > 0) {
-      total --;
-      document.getElementById("tickets").innerHTML = total;
-    } else if (total < 1) {
+    if (ticketsAvailable > 0) {
+      ticketsAvailable --
+      document.getElementById("tickets").innerHTML = ticketsAvailable
+    } else if (ticketsAvailable < 1) {
       document.getElementById("tickets").innerHTML = "*No tickets available";
     }
   });
@@ -78,14 +77,14 @@ function appendIndividualDetails(item) {
   let button = document.createElement("button");
   button.id = "btn";
   button.textContent = "Buy Ticket";
-  let total = item.capacity - item.tickets_sold;
+  let ticketsAvailable = item.capacity - item.tickets_sold;
   //Buying tickets.
   button.addEventListener("click", () => {
     //if tickets available is greater than 0 the total amount decreses by one every time it is pressed otherwise it prints a message
-    if (total > 0) {
-      total -= 1;
-      document.getElementById("tickets").innerHTML = total;
-    } else if (total < 1) {
+    if (ticketsAvailable > 0) {
+      ticketsAvailable -= 1;
+      document.getElementById("tickets").innerHTML = ticketsAvailable;
+    } else if (ticketsAvailable < 1) {
       document.getElementById("tickets").innerHTML = "*No tickets available";
     }
   });
