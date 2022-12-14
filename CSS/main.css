@@ -14,54 +14,22 @@ h1 {
     border-color: chocolate;
 }
 .page {
-    background-color: black;
-    border-image: auto;
-}
-.list {
-    display: flex;
-    justify-content: space-around;
-}
-.available {
-    flex: 20%;
-    background-color: rgb(255, 255, 255);
-    border-radius: 5%;
-    border-color: black;
-    box-sizing: content-box;
-    display: inline-block;
-    padding-left: 1cm;
-    padding-right: 1cm;
-    padding-top: 1cm;   
-    
-
-    
-}
-.Details {
-    flex: 60%;
-    background-color: rgb(255, 255, 255);
-    border-radius: 2%;
-    border-color: black;
-    box-sizing: content-box;
-    display: inline-block;
-    padding-right: 3cm;
-    padding: 3cm;
-    padding-top: 1cm;
-    margin-left: 2cm;
-}
-#buy {
-    color: blue;
     background-color: white;
-    text-align: center;
-    text-decoration: underline;
-    text-size-adjust: auto;
-    padding-block: 5px;
-
+    border-image: auto;
+    display: block;
 }
-#delete {
-        color: blue;
-        background-color: white;
-        text-align: center;
-        text-decoration: underline;
-        text-size-adjust: auto;
-        padding-block: 5px;
-        
+#movieDetail {
+    color: black;
+    flex-direction: column;
+}
+#label {
+    color: black;
+}
+#pic {
+    width: 400px;
+    height: 400px;
+    margin-block-end: auto;
+}
+.box {
+    box-sizing: border-box;   
 }
