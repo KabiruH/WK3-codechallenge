@@ -14,16 +14,26 @@ h1 {
     border-color: chocolate;
 }
 .page {
-    background-color: white;
+    image-rendering: optimizeQuality;
+    background-image: url(.../CSS/a.jpg);
     border-image: auto;
     display: block;
 }
 #movieDetail {
-    color: black;
-    flex-direction: column;
+    color: white;
+    padding-right: 6cm;
+    background-color: black;
+    position: relative;
+   
+
 }
 #label {
-    color: black;
+    color: white;
+    background-color: black;
+    padding-left: 6%;
+    border-block-end-style: solid;
+   
+   
 }
 #pic {
     width: 400px;
@@ -32,4 +42,11 @@ h1 {
 }
 .box {
     box-sizing: border-box;   
+}
+#info {
+    color: red;
+    background-color: rgb(0, 0, 0);
+    padding-right: 4cm;
+    block-size: 10%;
+    font-size: 22px;
 }
