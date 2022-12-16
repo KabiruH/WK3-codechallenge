@@ -1,4 +1,4 @@
-
+document.addEventListener ('DOMContentLoaded', () => {
 function loadMovies () {
 fetch("http://localhost:3000/films")
 .then (resp => resp.json())
@@ -99,3 +99,4 @@ function appendIndividualDetails(item) {
     `;
   movie.appendChild(button)
 }
+})

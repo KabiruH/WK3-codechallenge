@@ -22,14 +22,12 @@ h1 {
 #movieDetail {
     color: white;
     padding-right: 6cm;
-    background-color: black;
     position: relative;
    
 
 }
 #label {
     color: white;
-    background-color: black;
     padding-left: 6%;
     border-block-end-style: solid;
    
@@ -41,11 +39,12 @@ h1 {
     margin-block-end: auto;
 }
 .box {
-    box-sizing: border-box;   
+    box-sizing: border-box; 
+    background-image: url(../CSS/a.jpg);  
+    color: white;
 }
 #info {
     color: red;
-    background-color: rgb(0, 0, 0);
     padding-right: 4cm;
     block-size: 10%;
     font-size: 22px;
